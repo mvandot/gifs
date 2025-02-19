@@ -1,0 +1,101 @@
+.gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font: inherit;
+    position: relative;
+    width: 870px;
+    outline: none;
+}
+
+.gif__image-container{
+    margin: 8px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    position: relative;
+    vertical-align: baseline;
+}
+
+.gif__image{
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+@media only screen and (min-width: 614px) and (max-width: 844px) {
+    .gif {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        color: rgb(255, 255, 255);
+        border-radius: 0px;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        font: inherit;
+        position: relative;
+        width: 100%;
+        max-width: 614px;
+        outline: none;
+    }
+    
+    .gif__image-container{
+        margin: 8px;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        position: relative;
+        vertical-align: baseline;
+    }
+    
+    .gif__image{
+        color: rgb(255, 255, 255);
+        width: 188px;
+        height: 188px;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-widht: 613px) {
+    .gif {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        color: rgb(255, 255, 255);
+        border-radius: 0px;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        font: inherit;
+        position: relative;
+        width: 100%;
+        max-width: 321px;
+        outline: none;
+    }
+    
+    .gif__image-container{
+        margin: 8px;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        position: relative;
+        vertical-align: baseline;
+    }
+    
+    .gif__image{
+        color: rgb(255, 255, 255);
+        width: 144px;
+        height: 144px;
+        border-radius: 4px;
+    }
+}

@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #121212;
+  font-family: interface, "Helvetica Neue", helvetica, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body::-webkit-scrollbar {
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.giphy-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 12px;
+  width: 844px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media only screen and (min-width: 614px) and (max-width: 844px) {
+  body {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  body::-webkit-scrollbar{
+    display: none;
+  }
+
+  .giphy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 614px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 613px) {
+  body {
+    width: 100%;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .giphy-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    width: 100%;
+    max-width: 321px;
+    margin: 0 auto;
+    overflow: hidden;
   }
 }
